@@ -13,7 +13,7 @@ export default function Menu({
         animate={{ opacity: 1, height: "auto" }}
         exit={{height: 0 }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
-        className="overflow-hidden fixed inset-0  pt-22.5 w-full h-full  text-[#333D4B] font-black text-[24px] bg-linear-to-t from-[#FEFCF7]/50.5 via-[#fefcf6] to-[#fefcf6]"
+        className="z-9998 overflow-hidden fixed inset-0  pt-22.5 w-full h-full  text-[#333D4B] font-black text-[24px] bg-linear-to-t from-[#FEFCF7]/50.5 via-[#fefcf6] to-[#fefcf6]"
       >
         <ul className="flex flex-col gap-8 items-center pt-10">
           <Link
